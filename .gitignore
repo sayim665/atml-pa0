@@ -1,0 +1,27 @@
+# Data
+data/
+*.zip
+*.tar.gz
+
+# Checkpoints (keep small final ones only if needed, ignore raw training dumps)
+*.pt
+*.pth
+!**/results/*_final.pt
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# LaTeX build artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.synctex.gz
